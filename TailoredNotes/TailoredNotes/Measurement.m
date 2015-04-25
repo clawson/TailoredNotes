@@ -7,7 +7,8 @@
 //
 
 #import "Measurement.h"
-#import "NSManagedObject.h"
+#import "Order.h"
+#import "Person.h"
 
 
 @implementation Measurement
@@ -26,5 +27,6 @@
 @dynamic weight;
 @dynamic bust;
 @dynamic person;
+@dynamic order;
 
 @end

@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class NSManagedObject, Order;
+@class Order, Product;
 
 @interface OrderItem : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * price;
 @property (nonatomic, retain) NSString * note;
 @property (nonatomic, retain) Order *order;
-@property (nonatomic, retain) NSManagedObject *product;
+@property (nonatomic, retain) Product *product;
 
 @end

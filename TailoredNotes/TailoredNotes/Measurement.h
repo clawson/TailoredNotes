@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class NSManagedObject;
+@class Order, Person;
 
 @interface Measurement : NSManagedObject
 
@@ -26,6 +26,7 @@
 @property (nonatomic, retain) NSNumber * height;
 @property (nonatomic, retain) NSNumber * weight;
 @property (nonatomic, retain) NSNumber * bust;
-@property (nonatomic, retain) NSManagedObject *person;
+@property (nonatomic, retain) Person *person;
+@property (nonatomic, retain) Order *order;
 
 @end

@@ -16,11 +16,11 @@
 		16CB11091AEC1D7400FDC9D3 /* TailoredNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11081AEC1D7400FDC9D3 /* TailoredNotesTests.m */; };
 		16CB11171AEC20DA00FDC9D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CB11161AEC20DA00FDC9D3 /* CoreData.framework */; };
 		16CB111B1AEC215900FDC9D3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11191AEC215900FDC9D3 /* Model.xcdatamodeld */; };
-		16CB111E1AEC291000FDC9D3 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB111D1AEC291000FDC9D3 /* Order.m */; };
-		16CB11211AEC291100FDC9D3 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11201AEC291100FDC9D3 /* OrderItem.m */; };
-		16CB11241AEC291100FDC9D3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11231AEC291100FDC9D3 /* Measurement.m */; };
-		16CB11271AEC291100FDC9D3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11261AEC291100FDC9D3 /* Person.m */; };
-		16CB112A1AEC291100FDC9D3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11291AEC291100FDC9D3 /* Product.m */; };
+		16CB112D1AEC2A3300FDC9D3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB112C1AEC2A3300FDC9D3 /* Person.m */; };
+		16CB11301AEC2A3400FDC9D3 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB112F1AEC2A3400FDC9D3 /* Order.m */; };
+		16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11321AEC2A3400FDC9D3 /* OrderItem.m */; };
+		16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11351AEC2A3400FDC9D3 /* Product.m */; };
+		16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11381AEC2A3400FDC9D3 /* Measurement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,16 +49,16 @@
 		16CB11081AEC1D7400FDC9D3 /* TailoredNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailoredNotesTests.m; sourceTree = "<group>"; };
 		16CB11161AEC20DA00FDC9D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		16CB111A1AEC215900FDC9D3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		16CB111C1AEC291000FDC9D3 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
-		16CB111D1AEC291000FDC9D3 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
-		16CB111F1AEC291100FDC9D3 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
-		16CB11201AEC291100FDC9D3 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
-		16CB11221AEC291100FDC9D3 /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
-		16CB11231AEC291100FDC9D3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
-		16CB11251AEC291100FDC9D3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		16CB11261AEC291100FDC9D3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		16CB11281AEC291100FDC9D3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		16CB11291AEC291100FDC9D3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		16CB112B1AEC2A3300FDC9D3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		16CB112C1AEC2A3300FDC9D3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		16CB112E1AEC2A3400FDC9D3 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		16CB112F1AEC2A3400FDC9D3 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		16CB11311AEC2A3400FDC9D3 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		16CB11321AEC2A3400FDC9D3 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		16CB11341AEC2A3400FDC9D3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		16CB11351AEC2A3400FDC9D3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		16CB11371AEC2A3400FDC9D3 /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
+		16CB11381AEC2A3400FDC9D3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,16 +144,16 @@
 		16CB11121AEC1FDD00FDC9D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				16CB11281AEC291100FDC9D3 /* Product.h */,
-				16CB11291AEC291100FDC9D3 /* Product.m */,
-				16CB11251AEC291100FDC9D3 /* Person.h */,
-				16CB11261AEC291100FDC9D3 /* Person.m */,
-				16CB11221AEC291100FDC9D3 /* Measurement.h */,
-				16CB11231AEC291100FDC9D3 /* Measurement.m */,
-				16CB111F1AEC291100FDC9D3 /* OrderItem.h */,
-				16CB11201AEC291100FDC9D3 /* OrderItem.m */,
-				16CB111C1AEC291000FDC9D3 /* Order.h */,
-				16CB111D1AEC291000FDC9D3 /* Order.m */,
+				16CB11371AEC2A3400FDC9D3 /* Measurement.h */,
+				16CB11381AEC2A3400FDC9D3 /* Measurement.m */,
+				16CB11341AEC2A3400FDC9D3 /* Product.h */,
+				16CB11351AEC2A3400FDC9D3 /* Product.m */,
+				16CB11311AEC2A3400FDC9D3 /* OrderItem.h */,
+				16CB11321AEC2A3400FDC9D3 /* OrderItem.m */,
+				16CB112E1AEC2A3400FDC9D3 /* Order.h */,
+				16CB112F1AEC2A3400FDC9D3 /* Order.m */,
+				16CB112B1AEC2A3300FDC9D3 /* Person.h */,
+				16CB112C1AEC2A3300FDC9D3 /* Person.m */,
 				16CB11191AEC215900FDC9D3 /* Model.xcdatamodeld */,
 			);
 			name = Model;
@@ -267,14 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CB11301AEC2A3400FDC9D3 /* Order.m in Sources */,
 				16CB10F51AEC1D7400FDC9D3 /* ViewController.m in Sources */,
-				16CB111E1AEC291000FDC9D3 /* Order.m in Sources */,
-				16CB11271AEC291100FDC9D3 /* Person.m in Sources */,
-				16CB112A1AEC291100FDC9D3 /* Product.m in Sources */,
+				16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */,
+				16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */,
 				16CB10F21AEC1D7400FDC9D3 /* AppDelegate.m in Sources */,
-				16CB11211AEC291100FDC9D3 /* OrderItem.m in Sources */,
+				16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */,
 				16CB10EF1AEC1D7400FDC9D3 /* main.m in Sources */,
-				16CB11241AEC291100FDC9D3 /* Measurement.m in Sources */,
+				16CB112D1AEC2A3300FDC9D3 /* Person.m in Sources */,
 				16CB111B1AEC215900FDC9D3 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

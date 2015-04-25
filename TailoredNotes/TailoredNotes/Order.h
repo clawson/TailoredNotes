@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class NSManagedObject;
+@class Measurement, OrderItem, Person;
 
 @interface Order : NSManagedObject
 
@@ -20,13 +20,14 @@
 @property (nonatomic, retain) NSNumber * reminder;
 @property (nonatomic, retain) NSDate * reminderDate;
 @property (nonatomic, retain) NSSet *itemsInOrder;
-@property (nonatomic, retain) NSManagedObject *personForOrder;
+@property (nonatomic, retain) Person *personForOrder;
+@property (nonatomic, retain) Measurement *measurementForOrder;
 @end
 
 @interface Order (CoreDataGeneratedAccessors)
 
-- (void)addItemsInOrderObject:(NSManagedObject *)value;
-- (void)removeItemsInOrderObject:(NSManagedObject *)value;
+- (void)addItemsInOrderObject:(OrderItem *)value;
+- (void)removeItemsInOrderObject:(OrderItem *)value;
 - (void)addItemsInOrder:(NSSet *)values;
 - (void)removeItemsInOrder:(NSSet *)values;
 

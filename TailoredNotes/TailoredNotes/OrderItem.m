@@ -7,8 +7,8 @@
 //
 
 #import "OrderItem.h"
-#import "NSManagedObject.h"
 #import "Order.h"
+#import "Product.h"
 
 
 @implementation OrderItem

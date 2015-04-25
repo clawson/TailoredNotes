@@ -7,7 +7,9 @@
 //
 
 #import "Order.h"
-#import "NSManagedObject.h"
+#import "Measurement.h"
+#import "OrderItem.h"
+#import "Person.h"
 
 
 @implementation Order
@@ -20,5 +22,6 @@
 @dynamic reminderDate;
 @dynamic itemsInOrder;
 @dynamic personForOrder;
+@dynamic measurementForOrder;
 
 @end
