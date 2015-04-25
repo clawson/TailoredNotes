@@ -14,6 +14,7 @@
 		16CB10FA1AEC1D7400FDC9D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CB10F91AEC1D7400FDC9D3 /* Images.xcassets */; };
 		16CB10FD1AEC1D7400FDC9D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CB10FB1AEC1D7400FDC9D3 /* LaunchScreen.xib */; };
 		16CB11091AEC1D7400FDC9D3 /* TailoredNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11081AEC1D7400FDC9D3 /* TailoredNotesTests.m */; };
+		16CB11171AEC20DA00FDC9D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CB11161AEC20DA00FDC9D3 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		16CB11021AEC1D7400FDC9D3 /* TailoredNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailoredNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CB11071AEC1D7400FDC9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16CB11081AEC1D7400FDC9D3 /* TailoredNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailoredNotesTests.m; sourceTree = "<group>"; };
+		16CB11161AEC20DA00FDC9D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CB11171AEC20DA00FDC9D3 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,8 @@
 		16CB10EB1AEC1D7400FDC9D3 /* TailoredNotes */ = {
 			isa = PBXGroup;
 			children = (
+				16CB11181AEC20E200FDC9D3 /* Frameworks */,
+				16CB11121AEC1FDD00FDC9D3 /* Model */,
 				16CB10F01AEC1D7400FDC9D3 /* AppDelegate.h */,
 				16CB10F11AEC1D7400FDC9D3 /* AppDelegate.m */,
 				16CB10F31AEC1D7400FDC9D3 /* ViewController.h */,
@@ -117,6 +122,21 @@
 				16CB11071AEC1D7400FDC9D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CB11121AEC1FDD00FDC9D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		16CB11181AEC20E200FDC9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16CB11161AEC20DA00FDC9D3 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +438,7 @@
 				16CB110E1AEC1D7400FDC9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16CB110F1AEC1D7400FDC9D3 /* Build configuration list for PBXNativeTarget "TailoredNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				16CB11111AEC1D7400FDC9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
