@@ -47,7 +47,7 @@
 
 # pragma mark - Delete
 
-- (void) deleteProduct:(Product *)product {
+- (void) deleteProduct: (Product *) product {
     [product.managedObjectContext deleteObject:product];
     [self saveToPersistentStorage];
 }
