@@ -8,7 +8,6 @@
 
 #import "Order.h"
 #import "Measurement.h"
-#import "NSManagedObject.h"
 
 
 @implementation Order

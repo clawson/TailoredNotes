@@ -7,7 +7,6 @@
 //
 
 #import "Measurement.h"
-#import "NSManagedObject.h"
 
 
 @implementation Measurement
