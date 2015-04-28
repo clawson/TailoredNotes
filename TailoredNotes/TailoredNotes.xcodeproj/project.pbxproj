@@ -14,6 +14,7 @@
 		16334CC01AEFFA07003A407D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16334CBF1AEFFA07003A407D /* Images.xcassets */; };
 		16334CC31AEFFA07003A407D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16334CC11AEFFA07003A407D /* LaunchScreen.xib */; };
 		16334CCF1AEFFA08003A407D /* TailoredNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16334CCE1AEFFA08003A407D /* TailoredNotesTests.m */; };
+		16334CD91AEFFACF003A407D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16334CD81AEFFACF003A407D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		16334CC81AEFFA08003A407D /* TailoredNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailoredNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16334CCD1AEFFA08003A407D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16334CCE1AEFFA08003A407D /* TailoredNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailoredNotesTests.m; sourceTree = "<group>"; };
+		16334CD81AEFFACF003A407D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16334CD91AEFFACF003A407D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		16334CA61AEFFA07003A407D = {
 			isa = PBXGroup;
 			children = (
+				16334CDA1AEFFADA003A407D /* Frameworks */,
 				16334CB11AEFFA07003A407D /* TailoredNotes */,
 				16334CCB1AEFFA08003A407D /* TailoredNotesTests */,
 				16334CB01AEFFA07003A407D /* Products */,
@@ -117,6 +121,14 @@
 				16334CCD1AEFFA08003A407D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16334CDA1AEFFADA003A407D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16334CD81AEFFACF003A407D /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
