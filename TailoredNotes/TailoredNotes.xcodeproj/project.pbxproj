@@ -21,6 +21,7 @@
 		167962931AF00119005B995F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962921AF00119005B995F /* Person.m */; };
 		167962961AF00119005B995F /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962951AF00119005B995F /* OrderItem.m */; };
 		167962991AF00119005B995F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962981AF00119005B995F /* Product.m */; };
+		1679629C1AF0043B005B995F /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1679629B1AF0043B005B995F /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		167962951AF00119005B995F /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
 		167962971AF00119005B995F /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		167962981AF00119005B995F /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		1679629A1AF0043B005B995F /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		1679629B1AF0043B005B995F /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				1679628B1AF00118005B995F /* Measurement.h */,
 				1679628C1AF00118005B995F /* Measurement.m */,
 				16334CDC1AEFFB80003A407D /* Model.xcdatamodeld */,
+				1679629A1AF0043B005B995F /* Stack.h */,
+				1679629B1AF0043B005B995F /* Stack.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				16334CB81AEFFA07003A407D /* AppDelegate.m in Sources */,
 				16334CB51AEFFA07003A407D /* main.m in Sources */,
 				16334CDE1AEFFB80003A407D /* Model.xcdatamodeld in Sources */,
+				1679629C1AF0043B005B995F /* Stack.m in Sources */,
 				1679628D1AF00118005B995F /* Measurement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
