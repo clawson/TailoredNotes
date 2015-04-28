@@ -66,7 +66,6 @@
 		16334CA61AEFFA07003A407D = {
 			isa = PBXGroup;
 			children = (
-				16334CDA1AEFFADA003A407D /* Frameworks */,
 				16334CB11AEFFA07003A407D /* TailoredNotes */,
 				16334CCB1AEFFA08003A407D /* TailoredNotesTests */,
 				16334CB01AEFFA07003A407D /* Products */,
@@ -85,6 +84,7 @@
 		16334CB11AEFFA07003A407D /* TailoredNotes */ = {
 			isa = PBXGroup;
 			children = (
+				16334CDA1AEFFADA003A407D /* Frameworks */,
 				16334CB61AEFFA07003A407D /* AppDelegate.h */,
 				16334CB71AEFFA07003A407D /* AppDelegate.m */,
 				16334CB91AEFFA07003A407D /* ViewController.h */,
@@ -129,6 +129,7 @@
 				16334CD81AEFFACF003A407D /* CoreData.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
