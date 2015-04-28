@@ -15,6 +15,12 @@
 		16334CC31AEFFA07003A407D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16334CC11AEFFA07003A407D /* LaunchScreen.xib */; };
 		16334CCF1AEFFA08003A407D /* TailoredNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16334CCE1AEFFA08003A407D /* TailoredNotesTests.m */; };
 		16334CD91AEFFACF003A407D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16334CD81AEFFACF003A407D /* CoreData.framework */; };
+		16334CDE1AEFFB80003A407D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16334CDC1AEFFB80003A407D /* Model.xcdatamodeld */; };
+		1679628D1AF00118005B995F /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1679628C1AF00118005B995F /* Measurement.m */; };
+		167962901AF00119005B995F /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 1679628F1AF00119005B995F /* Order.m */; };
+		167962931AF00119005B995F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962921AF00119005B995F /* Person.m */; };
+		167962961AF00119005B995F /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962951AF00119005B995F /* OrderItem.m */; };
+		167962991AF00119005B995F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962981AF00119005B995F /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,17 @@
 		16334CCD1AEFFA08003A407D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16334CCE1AEFFA08003A407D /* TailoredNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailoredNotesTests.m; sourceTree = "<group>"; };
 		16334CD81AEFFACF003A407D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16334CDD1AEFFB80003A407D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1679628B1AF00118005B995F /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
+		1679628C1AF00118005B995F /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+		1679628E1AF00119005B995F /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		1679628F1AF00119005B995F /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		167962911AF00119005B995F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		167962921AF00119005B995F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		167962941AF00119005B995F /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItem.h; sourceTree = "<group>"; };
+		167962951AF00119005B995F /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
+		167962971AF00119005B995F /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		167962981AF00119005B995F /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +153,17 @@
 		16334CDB1AEFFB44003A407D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				167962971AF00119005B995F /* Product.h */,
+				167962981AF00119005B995F /* Product.m */,
+				167962941AF00119005B995F /* OrderItem.h */,
+				167962951AF00119005B995F /* OrderItem.m */,
+				167962911AF00119005B995F /* Person.h */,
+				167962921AF00119005B995F /* Person.m */,
+				1679628E1AF00119005B995F /* Order.h */,
+				1679628F1AF00119005B995F /* Order.m */,
+				1679628B1AF00118005B995F /* Measurement.h */,
+				1679628C1AF00118005B995F /* Measurement.m */,
+				16334CDC1AEFFB80003A407D /* Model.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -240,9 +268,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167962901AF00119005B995F /* Order.m in Sources */,
+				167962961AF00119005B995F /* OrderItem.m in Sources */,
 				16334CBB1AEFFA07003A407D /* ViewController.m in Sources */,
+				167962991AF00119005B995F /* Product.m in Sources */,
+				167962931AF00119005B995F /* Person.m in Sources */,
 				16334CB81AEFFA07003A407D /* AppDelegate.m in Sources */,
 				16334CB51AEFFA07003A407D /* main.m in Sources */,
+				16334CDE1AEFFB80003A407D /* Model.xcdatamodeld in Sources */,
+				1679628D1AF00118005B995F /* Measurement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +473,7 @@
 				16334CD41AEFFA08003A407D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16334CD51AEFFA08003A407D /* Build configuration list for PBXNativeTarget "TailoredNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -447,8 +482,22 @@
 				16334CD71AEFFA08003A407D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16334CDC1AEFFB80003A407D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16334CDD1AEFFB80003A407D /* Model.xcdatamodel */,
+			);
+			currentVersion = 16334CDD1AEFFB80003A407D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 16334CA71AEFFA07003A407D /* Project object */;
 }
