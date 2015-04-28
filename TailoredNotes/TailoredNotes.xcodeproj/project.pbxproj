@@ -84,6 +84,7 @@
 		16334CB11AEFFA07003A407D /* TailoredNotes */ = {
 			isa = PBXGroup;
 			children = (
+				16334CDB1AEFFB44003A407D /* Model */,
 				16334CDA1AEFFADA003A407D /* Frameworks */,
 				16334CB61AEFFA07003A407D /* AppDelegate.h */,
 				16334CB71AEFFA07003A407D /* AppDelegate.m */,
@@ -130,6 +131,13 @@
 			);
 			name = Frameworks;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		16334CDB1AEFFB44003A407D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
