@@ -22,6 +22,11 @@
 		167962961AF00119005B995F /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962951AF00119005B995F /* OrderItem.m */; };
 		167962991AF00119005B995F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 167962981AF00119005B995F /* Product.m */; };
 		1679629C1AF0043B005B995F /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1679629B1AF0043B005B995F /* Stack.m */; };
+		16DAE6C41AF00C9300072A4F /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6C31AF00C9300072A4F /* ProductController.m */; };
+		16DAE6C71AF00CA800072A4F /* OrderItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6C61AF00CA800072A4F /* OrderItemController.m */; };
+		16DAE6CA1AF00CB900072A4F /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6C91AF00CB900072A4F /* PersonController.m */; };
+		16DAE6CD1AF00CC700072A4F /* OrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6CC1AF00CC700072A4F /* OrderController.m */; };
+		16DAE6D01AF00CD900072A4F /* MeasurementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAE6CF1AF00CD900072A4F /* MeasurementController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,16 @@
 		167962981AF00119005B995F /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		1679629A1AF0043B005B995F /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		1679629B1AF0043B005B995F /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		16DAE6C21AF00C9300072A4F /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
+		16DAE6C31AF00C9300072A4F /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
+		16DAE6C51AF00CA800072A4F /* OrderItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderItemController.h; sourceTree = "<group>"; };
+		16DAE6C61AF00CA800072A4F /* OrderItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItemController.m; sourceTree = "<group>"; };
+		16DAE6C81AF00CB900072A4F /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
+		16DAE6C91AF00CB900072A4F /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
+		16DAE6CB1AF00CC700072A4F /* OrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderController.h; sourceTree = "<group>"; };
+		16DAE6CC1AF00CC700072A4F /* OrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderController.m; sourceTree = "<group>"; };
+		16DAE6CE1AF00CD900072A4F /* MeasurementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementController.h; sourceTree = "<group>"; };
+		16DAE6CF1AF00CD900072A4F /* MeasurementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +119,7 @@
 		16334CB11AEFFA07003A407D /* TailoredNotes */ = {
 			isa = PBXGroup;
 			children = (
+				16DAE6C11AF00C7800072A4F /* Controllers */,
 				16334CDB1AEFFB44003A407D /* Model */,
 				16334CDA1AEFFADA003A407D /* Frameworks */,
 				16334CB61AEFFA07003A407D /* AppDelegate.h */,
@@ -171,6 +187,23 @@
 				1679629B1AF0043B005B995F /* Stack.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		16DAE6C11AF00C7800072A4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16DAE6C21AF00C9300072A4F /* ProductController.h */,
+				16DAE6C31AF00C9300072A4F /* ProductController.m */,
+				16DAE6C51AF00CA800072A4F /* OrderItemController.h */,
+				16DAE6C61AF00CA800072A4F /* OrderItemController.m */,
+				16DAE6C81AF00CB900072A4F /* PersonController.h */,
+				16DAE6C91AF00CB900072A4F /* PersonController.m */,
+				16DAE6CB1AF00CC700072A4F /* OrderController.h */,
+				16DAE6CC1AF00CC700072A4F /* OrderController.m */,
+				16DAE6CE1AF00CD900072A4F /* MeasurementController.h */,
+				16DAE6CF1AF00CD900072A4F /* MeasurementController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +312,15 @@
 				167962991AF00119005B995F /* Product.m in Sources */,
 				167962931AF00119005B995F /* Person.m in Sources */,
 				16334CB81AEFFA07003A407D /* AppDelegate.m in Sources */,
+				16DAE6CA1AF00CB900072A4F /* PersonController.m in Sources */,
 				16334CB51AEFFA07003A407D /* main.m in Sources */,
 				16334CDE1AEFFB80003A407D /* Model.xcdatamodeld in Sources */,
 				1679629C1AF0043B005B995F /* Stack.m in Sources */,
+				16DAE6CD1AF00CC700072A4F /* OrderController.m in Sources */,
+				16DAE6D01AF00CD900072A4F /* MeasurementController.m in Sources */,
 				1679628D1AF00118005B995F /* Measurement.m in Sources */,
+				16DAE6C41AF00C9300072A4F /* ProductController.m in Sources */,
+				16DAE6C71AF00CA800072A4F /* OrderItemController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
