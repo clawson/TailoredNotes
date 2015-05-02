@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OrderHistoryViewController : UINavigationController
+@interface OrderHistoryViewController : UIViewController
 
 @end

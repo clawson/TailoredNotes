@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GuardianDetailsViewController : UINavigationController
+@interface GuardianDetailsViewController : UIViewController
 
 @end

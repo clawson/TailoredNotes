@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReadOnlyMeasurementViewController : UINavigationController
+@interface ReadOnlyMeasurementViewController : UIViewController
 
 @end

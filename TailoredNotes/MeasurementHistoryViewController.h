@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MeasurementHistoryViewController : UINavigationController
+@interface MeasurementHistoryViewController : UIViewController
 
 @end

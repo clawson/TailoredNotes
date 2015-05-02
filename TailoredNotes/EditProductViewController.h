@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EditProductViewController : UINavigationController
+@interface EditProductViewController : UIViewController
 
 @end
