@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6nG-w8-GtI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--People Alpha View Controller-->
@@ -362,7 +363,7 @@
             </objects>
             <point key="canvasLocation" x="1822" y="1698"/>
         </scene>
-        <!--Measurement History View Controller-->
+        <!--Measurement History-->
         <scene sceneID="8wV-OT-N3a">
             <objects>
                 <viewController id="i0X-3i-PXy" customClass="MeasurementHistoryViewController" sceneMemberID="viewController">
@@ -373,8 +374,46 @@
                     <view key="view" contentMode="scaleToFill" id="7gW-oe-JNA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="LiD-Iz-zqa">
+                                <rect key="frame" x="22" y="117" width="556" height="399"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mfA-eU-esG">
+                                        <rect key="frame" x="0.0" y="0.0" width="556" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mfA-eU-esG" id="NuS-8c-eBw">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="H00-BY-CU1" kind="show" id="Fha-5O-1Hs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LiD-Iz-zqa" firstAttribute="leading" secondItem="7gW-oe-JNA" secondAttribute="leadingMargin" constant="6" id="HUc-dC-tGK"/>
+                            <constraint firstItem="LiD-Iz-zqa" firstAttribute="centerX" secondItem="7gW-oe-JNA" secondAttribute="centerX" id="KnL-fq-8oG"/>
+                            <constraint firstItem="6ja-br-zvl" firstAttribute="top" secondItem="LiD-Iz-zqa" secondAttribute="bottom" constant="84" id="aMT-1e-wEC"/>
+                            <constraint firstItem="LiD-Iz-zqa" firstAttribute="top" secondItem="LM4-Dv-SXp" secondAttribute="bottom" constant="97" id="p7t-iq-O1V"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Measurement History" id="5Xk-HQ-6pi">
+                        <barButtonItem key="leftBarButtonItem" title="Person" id="sTG-wA-9sS">
+                            <connections>
+                                <segue destination="lGI-XA-qJO" kind="show" id="xSg-KZ-8Sp"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Add+" id="utj-5L-7GR">
+                            <color key="tintColor" red="0.30701972399999999" green="0.73534169819999995" blue="0.2380183629" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="gLm-ak-O5U" kind="show" id="gZp-hq-YPS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dwy-YR-Y02" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -526,7 +565,7 @@
             </objects>
             <point key="canvasLocation" x="3190" y="1014"/>
         </scene>
-        <!--New Measurement View Controller-->
+        <!--New Measurement-->
         <scene sceneID="L2L-mj-gPy">
             <objects>
                 <viewController id="gLm-ak-O5U" customClass="NewMeasurementViewController" sceneMemberID="viewController">
@@ -537,8 +576,22 @@
                     <view key="view" contentMode="scaleToFill" id="ziJ-b9-F4z">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iLQ-q2-cwk">
+                                <rect key="frame" x="19" y="82" width="562" height="459"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="New Measurement" id="yx9-dl-WpM">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="boA-IH-TK6">
+                            <connections>
+                                <segue destination="i0X-3i-PXy" kind="show" id="Biz-4c-XR2"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="9Ry-hc-NKr"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vJB-IH-kn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -635,6 +688,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ob4-ZV-2uV"/>
+        <segue reference="xSg-KZ-8Sp"/>
     </inferredMetricsTieBreakers>
 </document>
