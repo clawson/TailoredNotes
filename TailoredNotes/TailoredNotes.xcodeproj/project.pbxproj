@@ -21,6 +21,15 @@
 		16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11321AEC2A3400FDC9D3 /* OrderItem.m */; };
 		16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11351AEC2A3400FDC9D3 /* Product.m */; };
 		16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11381AEC2A3400FDC9D3 /* Measurement.m */; };
+		82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */; };
+		82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */; };
+		82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */; };
+		82573E041AFD32F10053DFF2 /* OrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */; };
+		82573E071AFD33730053DFF2 /* MeasurementHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */; };
+		82573E0A1AFD3A860053DFF2 /* NewMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */; };
+		82573E0D1AFD3B050053DFF2 /* EditMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */; };
+		82573E101AFD3BF60053DFF2 /* NewOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */; };
+		82573E131AFD3C700053DFF2 /* EditOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E121AFD3C700053DFF2 /* EditOrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,24 @@
 		16CB11351AEC2A3400FDC9D3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		16CB11371AEC2A3400FDC9D3 /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
 		16CB11381AEC2A3400FDC9D3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+		82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonAlphaViewController.h; sourceTree = "<group>"; };
+		82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonAlphaViewController.m; sourceTree = "<group>"; };
+		82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonOpenViewController.h; sourceTree = "<group>"; };
+		82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonOpenViewController.m; sourceTree = "<group>"; };
+		82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailsViewController.h; sourceTree = "<group>"; };
+		82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailsViewController.m; sourceTree = "<group>"; };
+		82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHistoryViewController.h; sourceTree = "<group>"; };
+		82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHistoryViewController.m; sourceTree = "<group>"; };
+		82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementHistoryViewController.h; sourceTree = "<group>"; };
+		82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementHistoryViewController.m; sourceTree = "<group>"; };
+		82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMeasurementViewController.h; sourceTree = "<group>"; };
+		82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMeasurementViewController.m; sourceTree = "<group>"; };
+		82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMeasurementViewController.h; sourceTree = "<group>"; };
+		82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMeasurementViewController.m; sourceTree = "<group>"; };
+		82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewOrderViewController.h; sourceTree = "<group>"; };
+		82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewOrderViewController.m; sourceTree = "<group>"; };
+		82573E111AFD3C700053DFF2 /* EditOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOrderViewController.h; sourceTree = "<group>"; };
+		82573E121AFD3C700053DFF2 /* EditOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +135,24 @@
 				16CB10F31AEC1D7400FDC9D3 /* ViewController.h */,
 				16CB10F41AEC1D7400FDC9D3 /* ViewController.m */,
 				16CB10F61AEC1D7400FDC9D3 /* Main.storyboard */,
+				82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */,
+				82573E111AFD3C700053DFF2 /* EditOrderViewController.h */,
+				82573E121AFD3C700053DFF2 /* EditOrderViewController.m */,
+				82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */,
+				82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */,
+				82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */,
+				82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */,
+				82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */,
+				82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */,
+				82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */,
+				82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */,
+				82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */,
+				82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */,
+				82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */,
+				82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */,
+				82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */,
+				82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */,
+				82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */,
 				16CB10F91AEC1D7400FDC9D3 /* Images.xcassets */,
 				16CB10FB1AEC1D7400FDC9D3 /* LaunchScreen.xib */,
 				16CB10EC1AEC1D7400FDC9D3 /* Supporting Files */,
@@ -269,11 +314,20 @@
 			files = (
 				16CB11301AEC2A3400FDC9D3 /* Order.m in Sources */,
 				16CB10F51AEC1D7400FDC9D3 /* ViewController.m in Sources */,
+				82573E101AFD3BF60053DFF2 /* NewOrderViewController.m in Sources */,
+				82573E131AFD3C700053DFF2 /* EditOrderViewController.m in Sources */,
 				16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */,
 				16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */,
+				82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */,
+				82573E0D1AFD3B050053DFF2 /* EditMeasurementViewController.m in Sources */,
 				16CB10F21AEC1D7400FDC9D3 /* AppDelegate.m in Sources */,
 				16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */,
+				82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */,
+				82573E071AFD33730053DFF2 /* MeasurementHistoryViewController.m in Sources */,
+				82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */,
 				16CB10EF1AEC1D7400FDC9D3 /* main.m in Sources */,
+				82573E041AFD32F10053DFF2 /* OrderHistoryViewController.m in Sources */,
+				82573E0A1AFD3A860053DFF2 /* NewMeasurementViewController.m in Sources */,
 				16CB112D1AEC2A3300FDC9D3 /* Person.m in Sources */,
 				16CB111B1AEC215900FDC9D3 /* Model.xcdatamodeld in Sources */,
 			);
