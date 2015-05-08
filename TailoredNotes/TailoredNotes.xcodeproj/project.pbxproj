@@ -21,20 +21,15 @@
 		16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11321AEC2A3400FDC9D3 /* OrderItem.m */; };
 		16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11351AEC2A3400FDC9D3 /* Product.m */; };
 		16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11381AEC2A3400FDC9D3 /* Measurement.m */; };
-		829A1F3E1AF3CF8B00290603 /* PersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F3D1AF3CF8B00290603 /* PersonDetailsViewController.m */; };
-		829A1F411AF3CFA500290603 /* GuardianDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F401AF3CFA500290603 /* GuardianDetailsViewController.m */; };
-		829A1F441AF3CFB200290603 /* OrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F431AF3CFB200290603 /* OrderHistoryViewController.m */; };
-		829A1F471AF3CFBF00290603 /* NewOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F461AF3CFBF00290603 /* NewOrderViewController.m */; };
-		829A1F4A1AF3CFC800290603 /* EditOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F491AF3CFC800290603 /* EditOrderViewController.m */; };
-		829A1F4D1AF3D02D00290603 /* MeasurementHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F4C1AF3D02D00290603 /* MeasurementHistoryViewController.m */; };
-		829A1F501AF3D03900290603 /* NewMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F4F1AF3D03900290603 /* NewMeasurementViewController.m */; };
-		829A1F531AF3D04700290603 /* ReadOnlyMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F521AF3D04700290603 /* ReadOnlyMeasurementViewController.m */; };
-		829A1F561AF3D05200290603 /* NewOrderItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F551AF3D05200290603 /* NewOrderItemViewController.m */; };
-		829A1F591AF3D05900290603 /* EditOrderItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F581AF3D05900290603 /* EditOrderItemViewController.m */; };
-		829A1F5C1AF3D06500290603 /* NewProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F5B1AF3D06500290603 /* NewProductViewController.m */; };
-		829A1F5F1AF3D06F00290603 /* EditProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F5E1AF3D06F00290603 /* EditProductViewController.m */; };
-		829A1F681AF54C4C00290603 /* PeopleAlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F671AF54C4C00290603 /* PeopleAlphaViewController.m */; };
-		829A1F6B1AF54C5A00290603 /* PeopleOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A1F6A1AF54C5A00290603 /* PeopleOpenViewController.m */; };
+		82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */; };
+		82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */; };
+		82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */; };
+		82573E041AFD32F10053DFF2 /* OrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */; };
+		82573E071AFD33730053DFF2 /* MeasurementHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */; };
+		82573E0A1AFD3A860053DFF2 /* NewMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */; };
+		82573E0D1AFD3B050053DFF2 /* EditMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */; };
+		82573E101AFD3BF60053DFF2 /* NewOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */; };
+		82573E131AFD3C700053DFF2 /* EditOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E121AFD3C700053DFF2 /* EditOrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,34 +68,24 @@
 		16CB11351AEC2A3400FDC9D3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		16CB11371AEC2A3400FDC9D3 /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
 		16CB11381AEC2A3400FDC9D3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
-		829A1F3C1AF3CF8B00290603 /* PersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailsViewController.h; path = ../PersonDetailsViewController.h; sourceTree = "<group>"; };
-		829A1F3D1AF3CF8B00290603 /* PersonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailsViewController.m; path = ../PersonDetailsViewController.m; sourceTree = "<group>"; };
-		829A1F3F1AF3CFA500290603 /* GuardianDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuardianDetailsViewController.h; path = ../GuardianDetailsViewController.h; sourceTree = "<group>"; };
-		829A1F401AF3CFA500290603 /* GuardianDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuardianDetailsViewController.m; path = ../GuardianDetailsViewController.m; sourceTree = "<group>"; };
-		829A1F421AF3CFB200290603 /* OrderHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderHistoryViewController.h; path = ../OrderHistoryViewController.h; sourceTree = "<group>"; };
-		829A1F431AF3CFB200290603 /* OrderHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderHistoryViewController.m; path = ../OrderHistoryViewController.m; sourceTree = "<group>"; };
-		829A1F451AF3CFBF00290603 /* NewOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewOrderViewController.h; path = ../NewOrderViewController.h; sourceTree = "<group>"; };
-		829A1F461AF3CFBF00290603 /* NewOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewOrderViewController.m; path = ../NewOrderViewController.m; sourceTree = "<group>"; };
-		829A1F481AF3CFC800290603 /* EditOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOrderViewController.h; path = ../EditOrderViewController.h; sourceTree = "<group>"; };
-		829A1F491AF3CFC800290603 /* EditOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOrderViewController.m; path = ../EditOrderViewController.m; sourceTree = "<group>"; };
-		829A1F4B1AF3D02D00290603 /* MeasurementHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeasurementHistoryViewController.h; path = ../MeasurementHistoryViewController.h; sourceTree = "<group>"; };
-		829A1F4C1AF3D02D00290603 /* MeasurementHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeasurementHistoryViewController.m; path = ../MeasurementHistoryViewController.m; sourceTree = "<group>"; };
-		829A1F4E1AF3D03900290603 /* NewMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewMeasurementViewController.h; path = ../NewMeasurementViewController.h; sourceTree = "<group>"; };
-		829A1F4F1AF3D03900290603 /* NewMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewMeasurementViewController.m; path = ../NewMeasurementViewController.m; sourceTree = "<group>"; };
-		829A1F511AF3D04700290603 /* ReadOnlyMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadOnlyMeasurementViewController.h; path = ../ReadOnlyMeasurementViewController.h; sourceTree = "<group>"; };
-		829A1F521AF3D04700290603 /* ReadOnlyMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadOnlyMeasurementViewController.m; path = ../ReadOnlyMeasurementViewController.m; sourceTree = "<group>"; };
-		829A1F541AF3D05200290603 /* NewOrderItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewOrderItemViewController.h; path = ../NewOrderItemViewController.h; sourceTree = "<group>"; };
-		829A1F551AF3D05200290603 /* NewOrderItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewOrderItemViewController.m; path = ../NewOrderItemViewController.m; sourceTree = "<group>"; };
-		829A1F571AF3D05900290603 /* EditOrderItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOrderItemViewController.h; path = ../EditOrderItemViewController.h; sourceTree = "<group>"; };
-		829A1F581AF3D05900290603 /* EditOrderItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOrderItemViewController.m; path = ../EditOrderItemViewController.m; sourceTree = "<group>"; };
-		829A1F5A1AF3D06500290603 /* NewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProductViewController.h; path = ../NewProductViewController.h; sourceTree = "<group>"; };
-		829A1F5B1AF3D06500290603 /* NewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProductViewController.m; path = ../NewProductViewController.m; sourceTree = "<group>"; };
-		829A1F5D1AF3D06F00290603 /* EditProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProductViewController.h; path = ../EditProductViewController.h; sourceTree = "<group>"; };
-		829A1F5E1AF3D06F00290603 /* EditProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProductViewController.m; path = ../EditProductViewController.m; sourceTree = "<group>"; };
-		829A1F661AF54C4C00290603 /* PeopleAlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleAlphaViewController.h; path = ../PeopleAlphaViewController.h; sourceTree = "<group>"; };
-		829A1F671AF54C4C00290603 /* PeopleAlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleAlphaViewController.m; path = ../PeopleAlphaViewController.m; sourceTree = "<group>"; };
-		829A1F691AF54C5A00290603 /* PeopleOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleOpenViewController.h; path = ../PeopleOpenViewController.h; sourceTree = "<group>"; };
-		829A1F6A1AF54C5A00290603 /* PeopleOpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleOpenViewController.m; path = ../PeopleOpenViewController.m; sourceTree = "<group>"; };
+		82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonAlphaViewController.h; sourceTree = "<group>"; };
+		82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonAlphaViewController.m; sourceTree = "<group>"; };
+		82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonOpenViewController.h; sourceTree = "<group>"; };
+		82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonOpenViewController.m; sourceTree = "<group>"; };
+		82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailsViewController.h; sourceTree = "<group>"; };
+		82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailsViewController.m; sourceTree = "<group>"; };
+		82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHistoryViewController.h; sourceTree = "<group>"; };
+		82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHistoryViewController.m; sourceTree = "<group>"; };
+		82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementHistoryViewController.h; sourceTree = "<group>"; };
+		82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementHistoryViewController.m; sourceTree = "<group>"; };
+		82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMeasurementViewController.h; sourceTree = "<group>"; };
+		82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMeasurementViewController.m; sourceTree = "<group>"; };
+		82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMeasurementViewController.h; sourceTree = "<group>"; };
+		82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMeasurementViewController.m; sourceTree = "<group>"; };
+		82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewOrderViewController.h; sourceTree = "<group>"; };
+		82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewOrderViewController.m; sourceTree = "<group>"; };
+		82573E111AFD3C700053DFF2 /* EditOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOrderViewController.h; sourceTree = "<group>"; };
+		82573E121AFD3C700053DFF2 /* EditOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +132,10 @@
 				16CB11121AEC1FDD00FDC9D3 /* Model */,
 				16CB10F01AEC1D7400FDC9D3 /* AppDelegate.h */,
 				16CB10F11AEC1D7400FDC9D3 /* AppDelegate.m */,
-				829A1F3B1AF3CDE100290603 /* Views */,
+				16CB10F31AEC1D7400FDC9D3 /* ViewController.h */,
+				16CB10F41AEC1D7400FDC9D3 /* ViewController.m */,
 				16CB10F61AEC1D7400FDC9D3 /* Main.storyboard */,
+				82573E141AFD3D980053DFF2 /* Views */,
 				16CB10F91AEC1D7400FDC9D3 /* Images.xcassets */,
 				16CB10FB1AEC1D7400FDC9D3 /* LaunchScreen.xib */,
 				16CB10EC1AEC1D7400FDC9D3 /* Supporting Files */,
@@ -208,39 +195,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		829A1F3B1AF3CDE100290603 /* Views */ = {
+		82573E141AFD3D980053DFF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				16CB10F31AEC1D7400FDC9D3 /* ViewController.h */,
-				16CB10F41AEC1D7400FDC9D3 /* ViewController.m */,
-				829A1F691AF54C5A00290603 /* PeopleOpenViewController.h */,
-				829A1F6A1AF54C5A00290603 /* PeopleOpenViewController.m */,
-				829A1F661AF54C4C00290603 /* PeopleAlphaViewController.h */,
-				829A1F671AF54C4C00290603 /* PeopleAlphaViewController.m */,
-				829A1F3C1AF3CF8B00290603 /* PersonDetailsViewController.h */,
-				829A1F3D1AF3CF8B00290603 /* PersonDetailsViewController.m */,
-				829A1F3F1AF3CFA500290603 /* GuardianDetailsViewController.h */,
-				829A1F401AF3CFA500290603 /* GuardianDetailsViewController.m */,
-				829A1F421AF3CFB200290603 /* OrderHistoryViewController.h */,
-				829A1F431AF3CFB200290603 /* OrderHistoryViewController.m */,
-				829A1F451AF3CFBF00290603 /* NewOrderViewController.h */,
-				829A1F461AF3CFBF00290603 /* NewOrderViewController.m */,
-				829A1F481AF3CFC800290603 /* EditOrderViewController.h */,
-				829A1F491AF3CFC800290603 /* EditOrderViewController.m */,
-				829A1F541AF3D05200290603 /* NewOrderItemViewController.h */,
-				829A1F551AF3D05200290603 /* NewOrderItemViewController.m */,
-				829A1F571AF3D05900290603 /* EditOrderItemViewController.h */,
-				829A1F581AF3D05900290603 /* EditOrderItemViewController.m */,
-				829A1F5A1AF3D06500290603 /* NewProductViewController.h */,
-				829A1F5B1AF3D06500290603 /* NewProductViewController.m */,
-				829A1F5D1AF3D06F00290603 /* EditProductViewController.h */,
-				829A1F5E1AF3D06F00290603 /* EditProductViewController.m */,
-				829A1F4B1AF3D02D00290603 /* MeasurementHistoryViewController.h */,
-				829A1F4C1AF3D02D00290603 /* MeasurementHistoryViewController.m */,
-				829A1F4E1AF3D03900290603 /* NewMeasurementViewController.h */,
-				829A1F4F1AF3D03900290603 /* NewMeasurementViewController.m */,
-				829A1F511AF3D04700290603 /* ReadOnlyMeasurementViewController.h */,
-				829A1F521AF3D04700290603 /* ReadOnlyMeasurementViewController.m */,
+				82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */,
+				82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */,
+				82573E111AFD3C700053DFF2 /* EditOrderViewController.h */,
+				82573E121AFD3C700053DFF2 /* EditOrderViewController.m */,
+				82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */,
+				82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */,
+				82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */,
+				82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */,
+				82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */,
+				82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */,
+				82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */,
+				82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */,
+				82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */,
+				82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */,
+				82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */,
+				82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */,
+				82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */,
+				82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -345,29 +320,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829A1F441AF3CFB200290603 /* OrderHistoryViewController.m in Sources */,
 				16CB11301AEC2A3400FDC9D3 /* Order.m in Sources */,
-				829A1F591AF3D05900290603 /* EditOrderItemViewController.m in Sources */,
 				16CB10F51AEC1D7400FDC9D3 /* ViewController.m in Sources */,
-				829A1F3E1AF3CF8B00290603 /* PersonDetailsViewController.m in Sources */,
+				82573E101AFD3BF60053DFF2 /* NewOrderViewController.m in Sources */,
+				82573E131AFD3C700053DFF2 /* EditOrderViewController.m in Sources */,
 				16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */,
-				829A1F681AF54C4C00290603 /* PeopleAlphaViewController.m in Sources */,
-				829A1F4A1AF3CFC800290603 /* EditOrderViewController.m in Sources */,
 				16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */,
+				82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */,
+				82573E0D1AFD3B050053DFF2 /* EditMeasurementViewController.m in Sources */,
 				16CB10F21AEC1D7400FDC9D3 /* AppDelegate.m in Sources */,
-				829A1F501AF3D03900290603 /* NewMeasurementViewController.m in Sources */,
-				829A1F531AF3D04700290603 /* ReadOnlyMeasurementViewController.m in Sources */,
 				16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */,
-				829A1F561AF3D05200290603 /* NewOrderItemViewController.m in Sources */,
-				829A1F6B1AF54C5A00290603 /* PeopleOpenViewController.m in Sources */,
+				82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */,
+				82573E071AFD33730053DFF2 /* MeasurementHistoryViewController.m in Sources */,
+				82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */,
 				16CB10EF1AEC1D7400FDC9D3 /* main.m in Sources */,
-				829A1F4D1AF3D02D00290603 /* MeasurementHistoryViewController.m in Sources */,
-				829A1F5C1AF3D06500290603 /* NewProductViewController.m in Sources */,
+				82573E041AFD32F10053DFF2 /* OrderHistoryViewController.m in Sources */,
+				82573E0A1AFD3A860053DFF2 /* NewMeasurementViewController.m in Sources */,
 				16CB112D1AEC2A3300FDC9D3 /* Person.m in Sources */,
 				16CB111B1AEC215900FDC9D3 /* Model.xcdatamodeld in Sources */,
-				829A1F471AF3CFBF00290603 /* NewOrderViewController.m in Sources */,
-				829A1F411AF3CFA500290603 /* GuardianDetailsViewController.m in Sources */,
-				829A1F5F1AF3D06F00290603 /* EditProductViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
