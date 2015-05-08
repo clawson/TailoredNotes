@@ -135,24 +135,7 @@
 				16CB10F31AEC1D7400FDC9D3 /* ViewController.h */,
 				16CB10F41AEC1D7400FDC9D3 /* ViewController.m */,
 				16CB10F61AEC1D7400FDC9D3 /* Main.storyboard */,
-				82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */,
-				82573E111AFD3C700053DFF2 /* EditOrderViewController.h */,
-				82573E121AFD3C700053DFF2 /* EditOrderViewController.m */,
-				82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */,
-				82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */,
-				82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */,
-				82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */,
-				82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */,
-				82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */,
-				82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */,
-				82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */,
-				82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */,
-				82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */,
-				82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */,
-				82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */,
-				82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */,
-				82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */,
-				82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */,
+				82573E141AFD3D980053DFF2 /* Views */,
 				16CB10F91AEC1D7400FDC9D3 /* Images.xcassets */,
 				16CB10FB1AEC1D7400FDC9D3 /* LaunchScreen.xib */,
 				16CB10EC1AEC1D7400FDC9D3 /* Supporting Files */,
@@ -210,6 +193,31 @@
 				16CB11161AEC20DA00FDC9D3 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82573E141AFD3D980053DFF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82573E081AFD3A860053DFF2 /* NewMeasurementViewController.h */,
+				82573E091AFD3A860053DFF2 /* NewMeasurementViewController.m */,
+				82573E111AFD3C700053DFF2 /* EditOrderViewController.h */,
+				82573E121AFD3C700053DFF2 /* EditOrderViewController.m */,
+				82573E0E1AFD3BF60053DFF2 /* NewOrderViewController.h */,
+				82573E0F1AFD3BF60053DFF2 /* NewOrderViewController.m */,
+				82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */,
+				82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */,
+				82573E051AFD33730053DFF2 /* MeasurementHistoryViewController.h */,
+				82573E061AFD33730053DFF2 /* MeasurementHistoryViewController.m */,
+				82573E0B1AFD3B050053DFF2 /* EditMeasurementViewController.h */,
+				82573E0C1AFD3B050053DFF2 /* EditMeasurementViewController.m */,
+				82573E021AFD32F10053DFF2 /* OrderHistoryViewController.h */,
+				82573E031AFD32F10053DFF2 /* OrderHistoryViewController.m */,
+				82573DFF1AFD2CE20053DFF2 /* PersonDetailsViewController.h */,
+				82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */,
+				82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */,
+				82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
