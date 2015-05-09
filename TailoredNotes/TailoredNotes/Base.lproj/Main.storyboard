@@ -307,6 +307,26 @@
                     <view key="view" contentMode="scaleToFill" id="5Te-Ar-GMz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJS-zm-YFv">
+                                <rect key="frame" x="246" y="130" width="109" height="30"/>
+                                <state key="normal" title="New Order Item">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MGT-41-Hur" kind="show" id="Fwo-fi-vcd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8C-Gg-Ob7">
+                                <rect key="frame" x="248" y="207" width="105" height="30"/>
+                                <state key="normal" title="Edit Order Item">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XzQ-wo-dh9" kind="show" id="h5b-6V-Tit"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="6m7-cQ-RvB">
@@ -316,6 +336,106 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6V-yg-Lvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3913" y="-1223"/>
+        </scene>
+        <!--Edit Order Item-->
+        <scene sceneID="nUl-f2-aoh">
+            <objects>
+                <viewController title="Edit Order Item" id="XzQ-wo-dh9" customClass="EditOrderItemViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iSe-eA-IDX"/>
+                        <viewControllerLayoutGuide type="bottom" id="0hY-EQ-aED"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="81y-m1-Axw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="QvC-HJ-HS5">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="Hg2-WL-4Ec"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gch-e5-FXm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4684" y="-847"/>
+        </scene>
+        <!--New Order Item-->
+        <scene sceneID="mGQ-Vr-xwV">
+            <objects>
+                <viewController title="New Order Item" id="MGT-41-Hur" customClass="NewOrderItemViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tnb-aO-ciW"/>
+                        <viewControllerLayoutGuide type="bottom" id="GXZ-HX-Qwg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pNu-Lq-40g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLG-ae-e1x">
+                                <rect key="frame" x="277" y="178" width="90" height="30"/>
+                                <state key="normal" title="New Product">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0fT-gc-WSh" kind="show" id="Pwx-wD-mOw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qa-rK-jEH">
+                                <rect key="frame" x="277" y="247" width="86" height="30"/>
+                                <state key="normal" title="Edit Product">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zrc-tD-Og9" kind="show" id="ygV-7d-85B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="NkM-v4-ZVt">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="kaZ-s2-WQt"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MPB-tv-6WL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4684" y="-1607"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="vc4-f3-Uhs">
+            <objects>
+                <viewController id="0fT-gc-WSh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zVG-Vt-dnF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zud-8X-ZgK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VUN-G1-xsl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="flr-om-VZx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnO-s8-kBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5429" y="-2121"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="DNW-Ot-D2u">
+            <objects>
+                <viewController id="zrc-tD-Og9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T8J-Ra-h0b"/>
+                        <viewControllerLayoutGuide type="bottom" id="G6O-er-YtF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zeK-8c-5nt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="7ZE-GP-UNn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWF-OM-qgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5429" y="-1343"/>
         </scene>
         <!--Edit Order-->
         <scene sceneID="xZK-fR-TOX">

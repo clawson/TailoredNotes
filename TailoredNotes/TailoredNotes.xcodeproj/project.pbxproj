@@ -21,6 +21,10 @@
 		16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11321AEC2A3400FDC9D3 /* OrderItem.m */; };
 		16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11351AEC2A3400FDC9D3 /* Product.m */; };
 		16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB11381AEC2A3400FDC9D3 /* Measurement.m */; };
+		821555B61AFE91CC00C56BE8 /* NewOrderItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821555B51AFE91CC00C56BE8 /* NewOrderItemViewController.m */; };
+		821555B91AFE924600C56BE8 /* EditOrderItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821555B81AFE924600C56BE8 /* EditOrderItemViewController.m */; };
+		821555BC1AFE92DF00C56BE8 /* NewProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821555BB1AFE92DF00C56BE8 /* NewProductViewController.m */; };
+		821555BF1AFE92EA00C56BE8 /* EditProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821555BE1AFE92EA00C56BE8 /* EditProductViewController.m */; };
 		82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */; };
 		82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573DFD1AFD2CBE0053DFF2 /* PersonOpenViewController.m */; };
 		82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */; };
@@ -68,6 +72,14 @@
 		16CB11351AEC2A3400FDC9D3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		16CB11371AEC2A3400FDC9D3 /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
 		16CB11381AEC2A3400FDC9D3 /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+		821555B41AFE91CC00C56BE8 /* NewOrderItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewOrderItemViewController.h; sourceTree = "<group>"; };
+		821555B51AFE91CC00C56BE8 /* NewOrderItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewOrderItemViewController.m; sourceTree = "<group>"; };
+		821555B71AFE924600C56BE8 /* EditOrderItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOrderItemViewController.h; sourceTree = "<group>"; };
+		821555B81AFE924600C56BE8 /* EditOrderItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOrderItemViewController.m; sourceTree = "<group>"; };
+		821555BA1AFE92DF00C56BE8 /* NewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProductViewController.h; sourceTree = "<group>"; };
+		821555BB1AFE92DF00C56BE8 /* NewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProductViewController.m; sourceTree = "<group>"; };
+		821555BD1AFE92EA00C56BE8 /* EditProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductViewController.h; sourceTree = "<group>"; };
+		821555BE1AFE92EA00C56BE8 /* EditProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductViewController.m; sourceTree = "<group>"; };
 		82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonAlphaViewController.h; sourceTree = "<group>"; };
 		82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonAlphaViewController.m; sourceTree = "<group>"; };
 		82573DFC1AFD2CBE0053DFF2 /* PersonOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonOpenViewController.h; sourceTree = "<group>"; };
@@ -216,6 +228,14 @@
 				82573E001AFD2CE20053DFF2 /* PersonDetailsViewController.m */,
 				82573DF91AFD2C3A0053DFF2 /* PersonAlphaViewController.h */,
 				82573DFA1AFD2C3A0053DFF2 /* PersonAlphaViewController.m */,
+				821555B41AFE91CC00C56BE8 /* NewOrderItemViewController.h */,
+				821555B51AFE91CC00C56BE8 /* NewOrderItemViewController.m */,
+				821555B71AFE924600C56BE8 /* EditOrderItemViewController.h */,
+				821555B81AFE924600C56BE8 /* EditOrderItemViewController.m */,
+				821555BA1AFE92DF00C56BE8 /* NewProductViewController.h */,
+				821555BB1AFE92DF00C56BE8 /* NewProductViewController.m */,
+				821555BD1AFE92EA00C56BE8 /* EditProductViewController.h */,
+				821555BE1AFE92EA00C56BE8 /* EditProductViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -321,16 +341,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CB11301AEC2A3400FDC9D3 /* Order.m in Sources */,
+				821555BC1AFE92DF00C56BE8 /* NewProductViewController.m in Sources */,
+				821555BF1AFE92EA00C56BE8 /* EditProductViewController.m in Sources */,
 				16CB10F51AEC1D7400FDC9D3 /* ViewController.m in Sources */,
 				82573E101AFD3BF60053DFF2 /* NewOrderViewController.m in Sources */,
 				82573E131AFD3C700053DFF2 /* EditOrderViewController.m in Sources */,
 				16CB11331AEC2A3400FDC9D3 /* OrderItem.m in Sources */,
 				16CB11361AEC2A3400FDC9D3 /* Product.m in Sources */,
+				821555B61AFE91CC00C56BE8 /* NewOrderItemViewController.m in Sources */,
 				82573DFE1AFD2CBE0053DFF2 /* PersonOpenViewController.m in Sources */,
 				82573E0D1AFD3B050053DFF2 /* EditMeasurementViewController.m in Sources */,
 				16CB10F21AEC1D7400FDC9D3 /* AppDelegate.m in Sources */,
 				16CB11391AEC2A3400FDC9D3 /* Measurement.m in Sources */,
 				82573DFB1AFD2C3A0053DFF2 /* PersonAlphaViewController.m in Sources */,
+				821555B91AFE924600C56BE8 /* EditOrderItemViewController.m in Sources */,
 				82573E071AFD33730053DFF2 /* MeasurementHistoryViewController.m in Sources */,
 				82573E011AFD2CE20053DFF2 /* PersonDetailsViewController.m in Sources */,
 				16CB10EF1AEC1D7400FDC9D3 /* main.m in Sources */,
